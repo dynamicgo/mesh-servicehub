@@ -8,7 +8,7 @@ import (
 
 func init() {
 	app.ImportService(app.ServiceDescriptor{
-		Name: "/mesh/servicehub/1.0.0",
+		Name: mesh.ProtocolServiceHub,
 		Main: servicehub.Main,
 		ServiceOptions: []mesh.ServiceOption{
 			mesh.NoRemoteConfig(),

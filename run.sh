@@ -1,0 +1,1 @@
+go build -o .build/mesh-servicehub ./cmd/servicehub && .build/mesh-servicehub "$@" 
